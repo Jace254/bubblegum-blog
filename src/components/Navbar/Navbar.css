@@ -1,0 +1,29 @@
+.navbar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    margin : 0 auto;
+    border-bottom: 1px solid var(--pink-500);
+    font-size: 20px;
+}
+
+.navbar .links{
+    margin-left: auto;
+}
+
+.navbar a{
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+    color: var(--blue-700);
+}
+
+.navbar a:hover{
+    color: var(--pink-500);
+}
+
+.navbar a:active{
+    color: var(--pink-500);
+}
+
