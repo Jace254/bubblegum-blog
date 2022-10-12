@@ -2,11 +2,14 @@
     padding: 10px 16px;
     margin: 20px 0;
     border-bottom: 1px solid var(--pink-200);
+    border: solid 1px #991155;
+    background-color: whitesmoke;
 }
 
 .blog-preview:hover {
-    box-shadow: 1px 3px 5px var(--pink-200);
+    box-shadow: 1px 3px 5px var(--pink-500);
     cursor: pointer;
+    background-color: white;
 }
 
 .blog-preview h2 {
