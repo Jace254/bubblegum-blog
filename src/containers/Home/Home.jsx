@@ -1,6 +1,7 @@
 
 import { BlogList } from "../../components";
 import useFetch from "../../hooks/useFetch";
+import React from 'react'
 
 
 const Home = () => {
