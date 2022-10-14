@@ -1,9 +1,8 @@
 import './App.css';
 import React, { Fragment } from 'react'
 import { Navbar } from "./components"
-import { Home } from './containers'
+import { BlogDetails, Home, Create } from './containers'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
-import { Create } from './containers';
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
             <Routes>
               <Route exact path="/create" element={<Create />} />
               <Route exact path="/" element={<Home />} />
+              <Route path="/blogs/:id" element={<BlogDetails />} />
             </Routes>
           </div>
         </Fragment>

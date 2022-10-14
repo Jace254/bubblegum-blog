@@ -9,5 +9,74 @@
     margin: 30px auto;
     padding: 10px; 
 }
+.blog-details {
+    font-size: 20px;
+    color: var(--blue-700);
+    margin-bottom: 8px;
+}
 
+.blog-details div {
+    margin: 20px 0;
+}
+
+.blog-details button {
+    background: var(--pink-500);
+    color: white;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.create {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create label {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+}
+
+.create h2 {
+    font-size: 20px;
+    color: var(--pink-500);
+    margin-bottom: 30px;
+}
+
+.create input,
+.create textarea,
+.create select {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    font-size: 15px;
+}
+
+.create textarea {
+    min-height: 200px;
+}
+
+.create button {
+    background: var(--pink-500);
+    color: white;
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 5px;
+    }
+}
 

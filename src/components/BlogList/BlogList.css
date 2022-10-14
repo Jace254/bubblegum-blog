@@ -17,3 +17,7 @@
     color: var(--pink-500);
     margin-bottom: 8px;
 }
+a {
+    text-decoration: none;
+    color: var(--blue-500);
+}
